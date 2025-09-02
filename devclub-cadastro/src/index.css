@@ -1,0 +1,25 @@
+:root {
+  --light-turquoise: #0eb4aa;
+  --middle-turquoise: #0d8488;
+  --dark-turquoise: #09535c;
+  --cta-yellow: #e38e17;
+  --text-collor: #283682;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(0deg, var(--dark-turquoise) 0%, var(--light-turquoise) 36%);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
